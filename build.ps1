@@ -24,5 +24,6 @@ $taskHtml = $taskHtml.Replace('<!--EMBEDDED_ASSETS-->', '<script>window.__ASSETS
 $taskHtml = $taskHtml.Replace('<!--GAME_CODE-->', '<script>' + $taskGame + '</script>')
 $taskLicense = Get-Content -LiteralPath (Join-Path $taskRoot 'vendor/THREE_LICENSE.txt') -Raw -Encoding UTF8
 $taskHtml += "`n<!-- Three.js 0.185.1 license`n" + $taskLicense.Replace('--', '- -') + "`n-->`n"
+$taskHtml = $taskHtml.Replace("`r`n", "`n")
 [IO.File]::WriteAllText((Join-Path $taskRoot 'index.html'), $taskHtml, $taskUtf8)
 Write-Output ('Built index.html; assets=' + $taskRecords.Count)
