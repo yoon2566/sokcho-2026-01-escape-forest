@@ -45,3 +45,8 @@ WASD/방향키 이동, Shift 달리기, E 조사, 마우스 선택, Space 공격
 
 Three.js의 라이선스는 `vendor/THREE_LICENSE.txt`에 있습니다.
 
+
+
+2026-10-10 업데이트: 학생 제출본의 최신 소스와 실행 파일을 반영했습니다.
+
+[학생 게임 모음에서 실행](https://sokcho-game-prototypes-20261003.yoon2566.workers.dev/game-01.html)
