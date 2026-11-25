@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "addedOn": "2026-11-02",
+  "studentNumber": 1,
+  "sourceStudentNumber": 1,
+  "status": "assets_only_not_integrated",
+  "warning": "게임 조작, 외형 변형, 충돌 및 재시작은 실제 게임에 연결한 후 확인해야 합니다.",
+  "models": [
+    {
+      "file": "hiker_hunyuan28_game_ready.glb",
+      "bytes": 13608944,
+      "sha256": "a15905798da860eadb955bb638a499e6421e4df362de73ad5e23f30e3bf560d5",
+      "skins": 1,
+      "joints": 28,
+      "animations": [
+        "Hiker_Idle",
+        "Hiker_Interact",
+        "Hiker_Run",
+        "Hiker_Walk"
+      ],
+      "meshOrigin": "Hunyuan-derived; some first-person equipment may include previous supporting geometry",
+      "rigAndMotionOrigin": "Hunyuan and/or Blender supplemental rig; includes Blender-authored animation",
+      "runtimeIntegrated": false
+    }
+  ]
+}

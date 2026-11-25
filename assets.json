@@ -1,0 +1,19 @@
+{
+  "hiker": "assets/hiker.glb",
+  "leafling": "assets/leafling.glb",
+  "bloomkin": "assets/bloomkin.glb",
+  "mossback": "assets/mossback.glb",
+  "elderroot": "assets/elderroot.glb",
+  "pine_tall": "assets/pine_tall.glb",
+  "pine_young": "assets/pine_young.glb",
+  "granite_set": "assets/granite_set.glb",
+  "fern_set": "assets/fern_set.glb",
+  "trail_tile": "assets/trail_tile.glb",
+  "sign": "assets/sign.glb",
+  "puzzle_stone": "assets/puzzle_stone.glb",
+  "door": "assets/door.glb",
+  "food": "assets/food.glb",
+  "key": "assets/key.glb",
+  "coin": "assets/coin.glb",
+  "weapon": "assets/weapon.glb"
+}
